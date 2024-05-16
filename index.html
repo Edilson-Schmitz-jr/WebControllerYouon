@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouOn Remote Control</title>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <a class="item_header discable_blade" id="close_button_action"><img class="img_close_midias_player" src="Src/img_button_desable_blade.png"></a>
+    </header>
+    <div class="preview_blade_container" >
+        <img class="img_nitial_page" src="Src/logo_initial_page.svg">
+    </div>
+    <section>
+    <div class="box_controls">
+        <div class="button_zoom_midia">
+            <div class="zoom_midia_interative_button">
+                <button class="next_in" id="zoom_in_button_action"><img class="img_zoom_in" src="Src/zoom_in.svg"></button>
+                <p class="title_zoom_blades">Zoom Mídia</p>
+                <button class="return_out" id="zoom_out_button_action"><img class="img_zoom_out" src="Src/zoom_out.svg" ></button>
+            </div>
+        </div>
+        <div class="tree_button_center">
+            <div class="button_center">
+                <div class="button_center_interative button_profile_interative">
+                    <button class="button_profile_active" id="image_blade_button_action"><img class="img_button_center_menu" src="Src/img_profile.svg"></button>
+                </div>
+            </div>
+            <div class="button_center">
+                <div class="button_center_interative button_header_interative">
+                    <button class="button_profile_active" id="profile_blade_button_action"><img class="img_button_center_menu" src="Src/cabecalho_img.svg"></button>
+                </div>
+            </div>
+            <div class="button_center">
+                <div class="button_center_interative button_export_interative">
+                    <button class="button_profile_active" id="export_blade_button_action"><img class="img_button_center_menu" src="Src/export_img.svg"></button>
+                </div>
+            </div>
+        </div>
+        <div class="button_control_blade">
+            <div class="control_midia_interative_button">
+                <button class="next_in" id="next_blade_button_action" ><img class="img_zoom_in" src="Src/next_blade.svg"></button>
+                <p class="title_zoom_blades">Lâmina</p>
+                <button class="return_out" id="return_blade_button_action"><img class="img_zoom_in" src="Src/return_blade.svg"></button>
+            </div>
+        </div>
+    </div>
+    <div class="inferior_buttons">
+        <div class="inferior_comands_grid_buttons">
+            <button class="turn_button_inferior" id="rotate_midia_button_action"><img class="img_button_center_menu" src="Src/turn_midia_button.svg"></button>
+        </div>
+        <div class="inferior_comands_grid_buttons">
+            <button class="play_button_inferior" id="play_midia_button_action"><img class="img_button_center_menu" src="Src/play_midia_button.svg"></button>
+        </div>
+        <div class="inferior_comands_grid_buttons">
+            <button onclick="config()" class="config_button_inferior"><img class="img_button_center_menu" src="Src/config_button.svg"></button>
+        </div>
+    </div>
+</section>
+
+        <div class="window_data_inputs">
+        <input required class="inputs_style number_type" type="text" id="ipInput" placeholder="Digite aqui o IP">
+        <input required class="inputs_style" type="text" id="portaInput" placeholder="Digite aqui a Porta">
+        <input required class="inputs_style" type="password" id="senhaInput" placeholder="Digite aqui a Senha">
+        <button onclick="salvar()" class="inputs_style button_save_style" type="submit" id="save_data_inputs">Salvar</button>
+        <button onclick="salvar()" class="inputs_style button_save_style button_close_window" type="submit" id="save_data_inputs">Fechar</button>
+        <input class="invible_input_comand" type="text" id="comandInput">
+        <a class="img_info_tag" href="https://www.youtube.com/watch?v=jZx5KO6-z9w" ><img class="img_info_training" src="Src/info_img_training.svg"></a>
+        </div>    
+</body>
+<script src="js/script.js"></script>
+<script src="js/save_data_inputs.js"></script>
+<script src="js/config_window.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
